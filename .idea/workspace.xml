@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="Web-Project:war exploded" />
+    </artifacts-to-build>
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/shards-demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/shards-demo.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/shards-demo.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/shards-demo.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/shards-extras.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/shards-extras.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/shards-extras.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/shards-extras.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/shards.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/shards.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/shards.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/css/shards.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Carousel/轮播图1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Carousel/轮播图2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/Carousel/轮播图3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/agency-landing/shards-logo-white.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/agency-landing/welcome-cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/app-promo/badge-apple-store.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/app-promo/badge-google-play-store.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/app-promo/features-background.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/app-promo/iphone-app-mockup.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/app-promo/iphone-app-screenshot.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/app-promo/shards-logo-green.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/app-promo/welcome-cover.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/common/avatar-1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/common/avatar-2.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/common/avatar-3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/common/card-1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/common/card-2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/common/card-3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/demo/fontawesome-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/demo/material-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/demo/shard-1-5x-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/demo/shards-agency-landing-page-demo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/demo/shards-app-demo-page-demo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/demo/shards-logo-black.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/demo/shards-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/demo/stock-photos/1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/demo/stock-photos/2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/demo/stock-photos/3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/logo/ICEClogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/images/logo/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/js/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/js/demo.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/js/shards.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/js/shards.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index123.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/index4.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jsp File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="2BAExDEkUaYpbPNmHgxSERfwkLj" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wubba/Downloads/web-course-master/web-course-master/web-experiments/Web-Project/src/main/resources&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\resources" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\resources\images\logo" />
+      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\resources\images\Carousel" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.52" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="BROWSER_ID" value="37cae5b9-e8b2-4949-9172-aafa37fbc09c" />
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Web-Project:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/Web_Project_war_exploded" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="4d32d2ec-504c-4ad2-99f3-1f7cbdc7c51d" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="4541" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Profile">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Web-Project:war exploded" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="" />
+      <created>1656340733631</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1656340733631</updated>
+      <workItem from="1656340735285" duration="1708000" />
+      <workItem from="1656461951919" duration="16502000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
