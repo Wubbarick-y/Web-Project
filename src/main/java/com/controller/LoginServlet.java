@@ -14,7 +14,13 @@ import java.io.IOException;
 public class LoginServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.getRequestDispatcher("/WEB-INF/admin/login.jsp").forward(req,resp);
+        Object admin = req.getSession().getAttribute("admin");
+        if(admin == null){
+            req.getRequestDispatcher("/WEB-INF/admin/login.jsp").forward(req,resp);
+        }else{
+            req.getRequestDispatcher("/WEB-INF/admin/management.jsp").forward(req,resp);
+        }
+
     }
 
     @Override
@@ -31,6 +37,5 @@ public class LoginServlet extends HttpServlet {
             url="/login";
         }
         resp.sendRedirect(req.getContextPath() + url);
-
     }
 }

@@ -9,14 +9,6 @@ import java.sql.SQLException;
 
 @WebListener
 public class DataSourceUtils {
-
-    public static void main(String[] args) {
-        try {
-            System.out.println(getConnection());
-        } catch (SQLException e) {
-            throw new RuntimeException(e);
-        }
-    }
     @Resource(name="jdbc/MySQL")
     private static DataSource dataSource;
 

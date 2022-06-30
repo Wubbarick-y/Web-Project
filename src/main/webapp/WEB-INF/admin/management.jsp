@@ -36,7 +36,7 @@
 <div class="card" style="width:30%; position:absolute; top: 50%; left: 50%;transform:translate(-50%,-50%); opacity: 0.7" >
     <ul class="list-group list-group-flush">
         <li class="list-group-item bg-secondary">
-            <a class="list-group-item bg-secondary text-white" href="#">添加公告</a>
+            <a class="list-group-item bg-secondary text-white" href="announcementSubmit">添加公告</a>
         </li>
         <li class="list-group-item bg-secondary">
             <a class="list-group-item bg-secondary text-white" href="#">添加新闻</a>

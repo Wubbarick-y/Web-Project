@@ -9,21 +9,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="improve Filter">
-      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/entity/AnnounceMent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/entity/News.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/bg-image.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/bgImage/bg-image.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+    <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="update manager">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/announcementServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/announceSubmit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Filter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Filter/LoginFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/InitServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/InitServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Utils/DataSourceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Utils/DataSourceUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/LoginServlet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/management.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/management.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/footer.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,8 +28,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Jsp File" />
+        <option value="HTML File" />
         <option value="Class" />
       </list>
     </option>
@@ -67,7 +62,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/wubba/Downloads/web-course-master/web-course-master/web-experiments/Web-Project/src/main/webapp/WEB-INF/admin"
+    "last_opened_file_path": "C:/Users/wubba/Downloads/web-course-master/web-course-master/web-experiments/Web-Project/src/main/webapp/WEB-INF/admin",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "全局库",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -83,15 +83,21 @@
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\WEB-INF\admin" />
+      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\plugin" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\image\bgImage" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\image\backgroundImage" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\image\icons" />
-      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp" />
-      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\WEB-INF\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.Utils" />
     </key>
+  </component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="mvn install" />
+      <command value="mvn install:install-file -DgroupId=com.baidu -DartifactId=ueditor -Dversion=1.4.4 -Dpackaging=jar -Dfile=D:/ueditor-1.1.3.jar " />
+    </option>
   </component>
   <component name="RunManager">
     <configuration name="Tomcat 9.0.52" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.52" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -192,7 +198,9 @@
       <option name="presentableId" value="Default" />
       <updated>1656340733631</updated>
       <workItem from="1656340735285" duration="1708000" />
-      <workItem from="1656461951919" duration="39230000" />
+      <workItem from="1656461951919" duration="41964000" />
+      <workItem from="1656557901519" duration="1375000" />
+      <workItem from="1656561538516" duration="14955000" />
     </task>
     <task id="LOCAL-00001" summary="Index">
       <created>1656491695677</created>
@@ -222,7 +230,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656507536205</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update manager">
+      <created>1656549751575</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1656549751575</updated>
+    </task>
+    <task id="LOCAL-00006" summary="update manager">
+      <created>1656549761708</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1656549761708</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -244,6 +266,7 @@
     <MESSAGE value="login and Index" />
     <MESSAGE value="Filter" />
     <MESSAGE value="improve Filter" />
-    <option name="LAST_COMMIT_MESSAGE" value="improve Filter" />
+    <MESSAGE value="update manager" />
+    <option name="LAST_COMMIT_MESSAGE" value="update manager" />
   </component>
 </project>
