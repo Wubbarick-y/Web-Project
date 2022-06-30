@@ -9,7 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="login and Index" />
+    <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="improve Filter">
+      <change afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/entity/AnnounceMent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/entity/News.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/bg-image.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/bgImage/bg-image.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/Filter/LoginFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Filter/LoginFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/InitServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/InitServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/management.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/management.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/footer.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/footer.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -52,7 +67,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/wubba/Downloads/web-course-master/web-course-master/web-experiments/Web-Project/src/main/webapp/META-INF"
+    "last_opened_file_path": "C:/Users/wubba/Downloads/web-course-master/web-course-master/web-experiments/Web-Project/src/main/webapp/WEB-INF/admin"
   },
   "keyToStringList": {
     "DatabaseDriversLRU": [
@@ -62,16 +77,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\WEB-INF\admin" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\META-INF" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\image\bgImage" />
+      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\image\backgroundImage" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\image\icons" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\WEB-INF\resources" />
-      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\WEB-INF\image" />
-      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\resources\images\logo" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.Utils" />
@@ -176,7 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1656340733631</updated>
       <workItem from="1656340735285" duration="1708000" />
-      <workItem from="1656461951919" duration="28804000" />
+      <workItem from="1656461951919" duration="39230000" />
     </task>
     <task id="LOCAL-00001" summary="Index">
       <created>1656491695677</created>
@@ -192,7 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656506927956</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Filter">
+      <created>1656507237328</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656507237328</updated>
+    </task>
+    <task id="LOCAL-00004" summary="improve Filter">
+      <created>1656507536205</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1656507536205</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,6 +242,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Index" />
     <MESSAGE value="login and Index" />
-    <option name="LAST_COMMIT_MESSAGE" value="login and Index" />
+    <MESSAGE value="Filter" />
+    <MESSAGE value="improve Filter" />
+    <option name="LAST_COMMIT_MESSAGE" value="improve Filter" />
   </component>
 </project>
