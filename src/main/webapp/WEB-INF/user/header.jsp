@@ -23,7 +23,7 @@
         <div class="navbar-collapse collapse" id="navbarDropdown">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a href="#" class="nav-link active">
+                    <a href="index" class="nav-link active">
                         首页
                         <span class="sr-only">(current)</span>
                     </a>

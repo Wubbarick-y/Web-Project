@@ -1,6 +1,6 @@
 <%@page pageEncoding="UTF-8" %>
 
-<div class="container-fulid">
+<div class="container-fluid" >
     <div class="jumbotron text-center" style="margin-bottom:0; border-radius:0;padding:0;">
         <div>
             <span class="navbar-brand mr-4">ICEC Sofware Engineering</span>

@@ -74,6 +74,7 @@
                 <img src="${pageContext.request.contextPath}/image/icons/sticky_note_2_black_24dp.svg" alt="icon">
                 <h5 style="display: inline-block">新闻中心</h5>
                 <%--     这里写新闻       --%>
+
             </div>
             <div class="col-md-6">
                 <img src="${pageContext.request.contextPath}/image/icons/construction_black_24dp.svg" alt="icons">
