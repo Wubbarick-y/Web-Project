@@ -32,8 +32,8 @@
                     <a class="nav-link dropdown-toggle" href="#" id="专业" data-toggle="dropdown" aria-haspopup="true"
                        aria-expanded="false">专业介绍</a>
                     <div class="dropdown-menu" aria-labelledby="专业">
-                        <a class="dropdown-item" href="#">专业简介</a>
-                        <a class="dropdown-item" href="#">方向介绍</a>
+                        <a class="dropdown-item" href="index#专业介绍">专业简介</a>
+                        <a class="dropdown-item" href="index#方向介绍">方向介绍</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">

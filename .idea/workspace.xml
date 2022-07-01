@@ -10,8 +10,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="add news and bug fix">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/icons/maps_home_work_black_48dp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/icons/science_black_24dp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/icons/send_black_48dp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/public/newsCenter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/majorIntroduction.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/header.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index4.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,9 +28,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Class" />
         <option value="Jsp File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -78,11 +85,11 @@
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\image\icons" />
+      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\public" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\WEB-INF\admin" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\plugin" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\image\bgImage" />
-      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\image\backgroundImage" />
-      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\image\icons" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.Utils" />
@@ -200,7 +207,7 @@
       <workItem from="1656461951919" duration="41964000" />
       <workItem from="1656557901519" duration="1375000" />
       <workItem from="1656561538516" duration="20668000" />
-      <workItem from="1656632839337" duration="8507000" />
+      <workItem from="1656632839337" duration="14230000" />
     </task>
     <task id="LOCAL-00001" summary="Index">
       <created>1656491695677</created>
@@ -279,7 +286,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656640396208</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="add news and bug fix">
+      <created>1656643226560</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1656643226560</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

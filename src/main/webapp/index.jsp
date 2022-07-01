@@ -41,7 +41,7 @@
 <body>
 
 <div class="jumbotron-fluid " style="margin-bottom:3rem;background-color:#0c673b; border-radius:0;">
-    <jsp:include page="WEB-INF/user/header.jsp"/>
+    <jsp:include page="/WEB-INF/user/header.jsp"/>
     <!--  轮播图-->
     <div class="container-fulid">
         <div class="row ">
@@ -83,7 +83,7 @@
     <!--   轮播图结束-->
 </div>
 
-<article style="margin-bottom:3rem;">
+<article>
     <div class="container">
         <div class="row border-bottom: black dashed 1px">
             <div class="col-md-6" style="border-right: black dashed 1px ;">
@@ -205,6 +205,47 @@
     </div>
     </div>
 </article>
+
+<div class="jumbotron" style="background-color: white">
+    <div class="row">
+        <div class="col-md-8 offset-md-2" id="专业介绍">
+            <div class="container text-center" style="border-bottom: black 1px solid">
+                <img src="${pageContext.request.contextPath}/image/icons/maps_home_work_black_48dp.svg" alt="icon">
+                <h3 class="card-title" style="display: inline-block">专业介绍</h3>
+            </div>
+            <div class="card" style="margin-bottom: 2rem;">
+                <p class="card-body" style="text-indent:2rem;line-height:2;">
+                    软件工程专业以IT业需求为导向，培养具有良好综合素质和职业道德，掌握扎实的基础理论和专业知识，
+                    具有软件分析、设计、开发、测试与管理能力，具备较强工程实践能力、技术创新能力和团队精神，
+                    能快速适应软件工程新技术发展并具有国际视野和国际竞争力的高级软件工程师。
+                    专业实施灵活的“211”人才培养模式（其中,2年基础教育,1年面向企业的专业教育,1年企业顶岗实习），
+                    在教学上着力推动基于问题、基于项目和基于案例的学习，对于实践性强的课程，采取校企联合“双师制”培养，
+                    同时以大学生创新实践活动、科技大赛为补充，突出工程化培养。
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-8 offset-md-2" id="方向介绍">
+            <div class="container text-center" style="border-bottom: black 1px solid">
+                <img src="${pageContext.request.contextPath}/image/icons/send_black_48dp.svg" alt="icon">
+                <h3 class="card-title" style="display: inline-block">方向介绍</h3>
+            </div>
+            <div class="card">
+                <p class="card-body" style="text-indent:2rem;line-height:2;">
+                    软件工程专业综合实验室，服务于专业的课程实验和创新创业项目，培养学生获得软件项目管理和开发经验，
+                    完成系统开发的实习、实训。软件工程专业综合实验室下设软件工程实验室（系统开发实训基地）、嵌入式技术实验室、
+                    移动开发实验室和IOS开发实验室。主要完成基于行业标准和技术的Rational统一过程和测试、软件体系结构、
+                    面向对象技术与UML、软件需求与分析、软件测试和质量保证、移动开发和IOS开发等课程的实验。同时，依托国家级大型软件企业，
+                    建立了校企合作的实习、实训基地。结合企业项目、师资、环境等对学生进行有针对性的工程能力训练，
+                    使学生具备综合运用所学知识解决复杂工程问题的能力。 专业目前已经建立了华为、亿阳安全、东软、华信、北京思特奇、博彦集智、江苏乐建、华宇（大连）、青软、微洋科技等实习基地。
+                </p>
+            </div>
+        </div>
+    </div>
+    </div>
+</div>
+
 
 
 <footer>
