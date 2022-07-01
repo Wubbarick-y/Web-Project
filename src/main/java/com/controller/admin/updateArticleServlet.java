@@ -56,6 +56,28 @@ public class updateArticleServlet extends HttpServlet {
 
     @Override
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-
+        int type = Integer.parseInt(req.getParameter("type"));
+        int id = Integer.parseInt(req.getParameter("id"));
+        String title = req.getParameter("title");
+        String detail = req.getParameter("detail");
+        String html = req.getParameter("html");
+        String sql = null;
+        if(type == 1){
+            sql = "update news set news_title = ?,news_content = ? ,detail = ? where news_id = ?";
+        }else {
+            sql = "update announcement set announcement_title = ? , announcement_content = ? , detail = ? where announcement_Id = ?";
+        }
+        try {
+            Connection connection = DataSourceUtils.getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(1,title);
+            preparedStatement.setString(2,html);
+            preparedStatement.setString(3,detail);
+            preparedStatement.setInt(4,id);
+            boolean execute = preparedStatement.execute();
+            req.setAttribute("result",execute);
+        } catch (SQLException e) {
+            System.out.println("数据库链接出错");
+        }
     }
 }
