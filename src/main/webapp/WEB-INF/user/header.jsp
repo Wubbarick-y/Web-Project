@@ -54,11 +54,11 @@
                     </div>
                 </li>
                 <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="就业工作"
+                    <a class="nav-link dropdown-toggle" href="static/jggz.jsp" id="就业工作"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">就业指南</a>
                     <div class="dropdown-menu" aria-labelledby="就业工作">
-                        <a class="dropdown-item" href="#">就业工作</a>
-                        <a class="dropdown-item" href="#">就业信息</a>
+                        <a class="dropdown-item" href="static/jygz.jsp">就业工作</a>
+                        <a class="dropdown-item" href="static/jyxx.jsp">就业信息</a>
                     </div>
                 </li>
 
