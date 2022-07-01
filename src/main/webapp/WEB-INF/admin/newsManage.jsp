@@ -40,7 +40,7 @@
                             <span>${i.getInsertDate()}</span>
                         </div>
                         <div class="col-md-2">
-                            <a class="btn btn-success" id="newsUpdate" href="">修改</a>
+                            <a class="btn btn-success" id="newsUpdate" href="updateArticle?id=${i.getId()}&type=1">修改</a>
                             <a class="btn btn-danger" id="newsDelete" href="newsDelete?id=${i.getId()}">删除</a>
                         </div>
                     </div>

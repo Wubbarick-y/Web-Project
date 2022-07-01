@@ -40,7 +40,9 @@
               <span>${i.getInsertDate()}</span>
             </div>
             <div class="col-md-2">
-              <a class="btn btn-success" id="announcementUpdate" href="">修改</a>
+<%-- type = 1表示为news
+type = 2表示为announcement--%>
+              <a class="btn btn-success" id="announcementUpdate" href="updateArticle?id=${i.getId()}&type=2">修改</a>
               <a class="btn btn-danger" id="announcementDelete" href="announcementDelete?id=${i.getId()}">删除</a>
             </div>
           </div>
