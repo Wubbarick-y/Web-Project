@@ -9,16 +9,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="update manager">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/announcementServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/announceSubmit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="update wangEditor">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/Utils/DataSourceUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/Utils/DataSourceUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/LoginServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/management.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/management.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/InitServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/InitServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/announcementServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/announcementServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/AnnounceMent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/AnnounceMent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,26 +52,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "C:/Users/wubba/Downloads/web-course-master/web-course-master/web-experiments/Web-Project/src/main/webapp/WEB-INF/admin",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "全局库",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/wubba/Downloads/spring-web-4.3.9.RELEASE.jar&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;库&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\WEB-INF\admin" />
@@ -97,6 +96,9 @@
     <option name="myCommands">
       <command value="mvn install" />
       <command value="mvn install:install-file -DgroupId=com.baidu -DartifactId=ueditor -Dversion=1.4.4 -Dpackaging=jar -Dfile=D:/ueditor-1.1.3.jar " />
+      <command value="mvn install:install-file -Dfile=F:WebUtils.jar -DgroupId=com.extend -DartifactId=Spring -Dversion=1.0.0 -Dpackaging=jar" />
+      <command value="mvn install:install-file -Dfile=F:\WebUtils.jar -DgroupId=com.extend -DartifactId=Spring -Dversion=1.0.0 -Dpackaging=jar" />
+      <command value="mvn install:install-file -Dfile=D:\WebUtils.jar -DgroupId=com.extend -DartifactId=Spring -Dversion=1.0.0 -Dpackaging=jar" />
     </option>
   </component>
   <component name="RunManager">
@@ -112,6 +114,7 @@
       </deployment>
       <server-settings>
         <option name="BASE_DIRECTORY_NAME" value="4d32d2ec-504c-4ad2-99f3-1f7cbdc7c51d" />
+        <option name="HTTP_PORT" value="1234" />
       </server-settings>
       <predefined_log_file enabled="true" id="Tomcat" />
       <predefined_log_file enabled="true" id="Tomcat Catalina" />
@@ -200,7 +203,8 @@
       <workItem from="1656340735285" duration="1708000" />
       <workItem from="1656461951919" duration="41964000" />
       <workItem from="1656557901519" duration="1375000" />
-      <workItem from="1656561538516" duration="14955000" />
+      <workItem from="1656561538516" duration="20668000" />
+      <workItem from="1656632839337" duration="2610000" />
     </task>
     <task id="LOCAL-00001" summary="Index">
       <created>1656491695677</created>
@@ -244,7 +248,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656549761708</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update wangEditor">
+      <created>1656602263796</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1656602263796</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -267,6 +278,7 @@
     <MESSAGE value="Filter" />
     <MESSAGE value="improve Filter" />
     <MESSAGE value="update manager" />
-    <option name="LAST_COMMIT_MESSAGE" value="update manager" />
+    <MESSAGE value="update wangEditor" />
+    <option name="LAST_COMMIT_MESSAGE" value="update wangEditor" />
   </component>
 </project>
