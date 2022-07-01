@@ -28,8 +28,8 @@
         <div class="col-md-3">
 
             <ul class="list-group">
-                <a href="static/newsCenter" class="list-group-item">新闻中心</a>
-                <a href="static/announcementCenter" class="list-group-item active">通知公告</a>
+                <a href="newsCenter" class="list-group-item">新闻中心</a>
+                <a href="announcementCenter" class="list-group-item active">通知公告</a>
             </ul>
 
 
