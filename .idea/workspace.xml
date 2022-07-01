@@ -9,11 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="fix some bugs">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/newsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/newsSubmit.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/announcementServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/announcementServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/management.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/management.jsp" afterDir="false" />
+    <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="add news">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/InitServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/InitServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/News.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -203,7 +201,7 @@
       <workItem from="1656461951919" duration="41964000" />
       <workItem from="1656557901519" duration="1375000" />
       <workItem from="1656561538516" duration="20668000" />
-      <workItem from="1656632839337" duration="6309000" />
+      <workItem from="1656632839337" duration="6969000" />
     </task>
     <task id="LOCAL-00001" summary="Index">
       <created>1656491695677</created>
@@ -268,7 +266,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656639170083</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="add news">
+      <created>1656639771365</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1656639771365</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -293,6 +298,7 @@
     <MESSAGE value="update manager" />
     <MESSAGE value="update wangEditor" />
     <MESSAGE value="fix some bugs" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix some bugs" />
+    <MESSAGE value="add news" />
+    <option name="LAST_COMMIT_MESSAGE" value="add news" />
   </component>
 </project>

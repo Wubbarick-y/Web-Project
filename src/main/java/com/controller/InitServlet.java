@@ -2,6 +2,7 @@ package com.controller;
 
 import com.Utils.DataSourceUtils;
 import com.entity.AnnounceMent;
+import com.entity.News;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -18,6 +19,7 @@ public class InitServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         List<AnnounceMent> list = new ArrayList<>();
+        List<News> newsList = new ArrayList<>();
         try {
             Connection connection = DataSourceUtils.getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement("select * from announcement order by insert_time desc");
@@ -31,8 +33,28 @@ public class InitServlet extends HttpServlet {
             }
             req.setAttribute("announcement",list);
         } catch (SQLException e) {
-            throw new RuntimeException(e);
+            System.out.println("公告加载失败");
         }
+
+        try {
+            Connection connection = DataSourceUtils.getConnection();
+            PreparedStatement preparedStatement = connection.prepareStatement("select * from news order by insert_time desc");
+            ResultSet resultSet = preparedStatement.executeQuery();
+            while(resultSet.next()){
+                int id = resultSet.getInt("news_id");
+                Date time = resultSet.getDate("insert_time");
+                String title = resultSet.getString("news_title");
+                String content = resultSet.getString("news_content");
+                newsList.add(new News(id,time,title,content));
+            }
+            req.setAttribute("news",newsList);
+        } catch (SQLException e) {
+            System.out.println("新闻加载失败");
+        }
+
+
+
+
         req.getRequestDispatcher("/index.jsp").forward(req,resp);
     }
 }
