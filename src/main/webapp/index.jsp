@@ -86,7 +86,15 @@
                 <%--     这里写新闻       --%>
                 <div class="row">
 
-<%--        tag             --%>
+                </div>
+
+            <div class="col-md-6">
+                <img src="${pageContext.request.contextPath}/image/icons/construction_black_24dp.svg" alt="icons">
+                <h5 style="display: inline-block">通知公告</h5>
+                <%--     这里写公告       --%>
+                <div class="row">
+
+                    <%--        tag             --%>
                     <div class="col-4" >
                         <div class="list-group" id="list-tab" role="tablist" >
                             <c:forEach items="${announcement}" var="AM" varStatus="s">
@@ -101,40 +109,35 @@
                             </c:forEach>
                         </div>
                     </div>
-<%--        tagEnd            --%>
-<%--label--%>
+                    <%--        tagEnd            --%>
+                    <%--label--%>
                     <div class="col-8" style="">
-                            <div class="tab-content" id="nav-tabContent">
-                                <c:forEach items="${announcement}" var="AM" varStatus="s">
-                                    <c:if test="${s.first}">
-                                        <div class="tab-pane fade show active" id="list-${AM.getId()}" role="tabpanel" aria-labelledby="list-${AM.getId()}-list">
-                                                ${AM.html}
-                                                    <br/>
-                                                    <span>
+                        <div class="tab-content" id="nav-tabContent">
+                            <c:forEach items="${announcement}" var="AM" varStatus="s">
+                                <c:if test="${s.first}">
+                                    <div class="tab-pane fade show active" id="list-${AM.getId()}" role="tabpanel" aria-labelledby="list-${AM.getId()}-list">
+                                            ${AM.html}
+                                        <br/>
+                                        <span>
                                                         发布日期:${AM.getInsertDate()}
                                                     </span>
-                                        </div>
-                                    </c:if>
-                                    <c:if test="${!s.first}">
-                                        <div class="tab-pane fade" id="list-${AM.getId()}" role="tabpanel" aria-labelledby="list-${AM.getId()}-list">
-                                                ${AM.html}
-                                                    <br/>
-                                                    <span>
+                                    </div>
+                                </c:if>
+                                <c:if test="${!s.first}">
+                                    <div class="tab-pane fade" id="list-${AM.getId()}" role="tabpanel" aria-labelledby="list-${AM.getId()}-list">
+                                            ${AM.html}
+                                        <br/>
+                                        <span>
                                                         发布日期:${AM.getInsertDate()}
                                                     </span>
-                                        </div>
-                                    </c:if>
-                                </c:forEach>
-                            </div>
+                                    </div>
+                                </c:if>
+                            </c:forEach>
+                        </div>
                     </div>
-<%--labelEnd--%>
+                    <%--labelEnd--%>
                 </div>
             </div>
-            <div class="col-md-6">
-                <img src="${pageContext.request.contextPath}/image/icons/construction_black_24dp.svg" alt="icons">
-                <h5 style="display: inline-block">通知公告</h5>
-                <%--     这里写公告       --%>
-
 
 
             </div>

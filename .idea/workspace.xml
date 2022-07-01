@@ -10,9 +10,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="fix some bugs">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/InitServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/InitServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/AnnounceMent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/AnnounceMent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/newsServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/newsSubmit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/announcementServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/announcementServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/management.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/management.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,9 +24,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Jsp File" />
         <option value="HTML File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -202,7 +203,7 @@
       <workItem from="1656461951919" duration="41964000" />
       <workItem from="1656557901519" duration="1375000" />
       <workItem from="1656561538516" duration="20668000" />
-      <workItem from="1656632839337" duration="5845000" />
+      <workItem from="1656632839337" duration="6309000" />
     </task>
     <task id="LOCAL-00001" summary="Index">
       <created>1656491695677</created>
@@ -260,7 +261,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656636149096</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix some bugs">
+      <created>1656639170083</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1656639170083</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
