@@ -33,8 +33,6 @@
             border-bottom-left-radius: 0;
         }
 
-        .list-group-item {
-        }
     </style>
 
 </head>
@@ -91,55 +89,50 @@
                 <h5 style="display: inline-block">新闻中心</h5>
                 <%--     这里写新闻       --%>
                 <div class="row">
-
-                    <%--        tag             --%>
                     <div class="col-4">
                         <div class="list-group" id="list-tab2" role="tablist">
-                            <c:forEach items="${news}" var="AM" varStatus="s">
+                            <c:forEach items="${news}" var="n" varStatus="s">
                                 <c:if test="${s.count <=5}">
                                     <c:if test="${s.first}">
-                                        <a class="list-group-item list-group-item-action active"
-                                           id="list-${AM.getId()}-list" data-toggle="list" href="#list-${AM.getId()}"
-                                           role="tab" aria-controls="${AM.getId()}">${fn:substring(AM.title,0,7)}</a>
+                                        <a class="list-group-item list-group-item-action active" id="list-news-${n.getId()}-list" data-toggle="list" href="#list-news-${n.getId()}" role="tab" aria-controls="news-${n.getId()}">${fn:substring(n.title,0,7)}</a>
                                     </c:if>
                                     <c:if test="${!s.first}">
-                                        <a class="list-group-item list-group-item-action" id="list-${AM.getId()}-list"
-                                           data-toggle="list" href="#list-${AM.getId()}" role="tab"
-                                           aria-controls="${AM.getId()}">${fn:substring(AM.title,0,7)}</a>
+                                        <a class="list-group-item list-group-item-action" id="list-news-${n.getId()}-list" data-toggle="list" href="#list-news-${n.getId()}" role="tab" aria-controls="news-${n.getId()}">${fn:substring(n.title,0,7)}</a>
                                     </c:if>
                                 </c:if>
                             </c:forEach>
                         </div>
                     </div>
-                    <%--        tagEnd            --%>
-                    <%--label--%>
-                    <div class="col-8" style="">
+                    <div class="col-8">
                         <div class="tab-content" id="nav-tabContent2">
-                            <c:forEach items="${news}" var="AM" varStatus="s">
-                                <c:if test="${s.first}">
-                                    <div class="tab-pane fade show active" id="list-${AM.getId()}" role="tabpanel"
-                                         aria-labelledby="list-${AM.getId()}-list">
-                                            ${fn:substring(AM.detail,0,50)}
-                                        <br/>
-                                        <span>
-                                            发布日期:${AM.getInsertDate()}
-                                        </span>
-                                    </div>
-                                </c:if>
-                                <c:if test="${!s.first}">
-                                    <div class="tab-pane fade" id="list-${AM.getId()}" role="tabpanel"
-                                         aria-labelledby="list-${AM.getId()}-list">
-                                            ${fn:substring(AM.detail,0,50)}
-                                        <br/>
-                                        <span>
-                                            发布日期:${AM.getInsertDate()}
-                                        </span>
-                                    </div>
+                            <c:forEach items="${news}" var="n" varStatus="s">
+                                <c:if test="${s.count<=5}">
+                                    <c:if test="${s.first}">
+                                        <div class="tab-pane fade show active" id="list-news-${n.getId()}" role="tabpanel" aria-labelledby="list-news-${n.getId()}-list">${fn:substring(n.detail,0,70)}
+
+                                            <p>
+                                                发布时间:${n.insertDate}
+                                            </p>
+                                            <p>
+                                                <a href="checkNews?id=${n.getId()}" class="list-item" style="font-size:1.3rem;">查看详情</a>
+                                            </p>
+                                        </div>
+                                    </c:if>
+                                    <c:if test="${!s.first}">
+                                        <div class="tab-pane fade show" id="list-news-${n.getId()}" role="tabpanel" aria-labelledby="list-news-${n.getId()}-list">${fn:substring(n.detail,0,70)}
+
+                                            <p>
+                                                发布时间:${n.insertDate}
+                                            </p>
+                                            <p>
+                                                <a href="checkNews?id=${n.getId()}" class="list-item" style="font-size:1.3rem;">查看详情</a>
+                                            </p>
+                                        </div>
+                                    </c:if>
                                 </c:if>
                             </c:forEach>
                         </div>
                     </div>
-                    <%--labelEnd--%>
                 </div>
             </div>
 
@@ -148,62 +141,60 @@
                 <h5 style="display: inline-block">通知公告</h5>
                 <%--     这里写公告       --%>
                 <div class="row">
-                    <%--        tag             --%>
                     <div class="col-4">
-                        <div class="list-group" id="list-tab" role="tablist">
-                            <c:forEach items="${announcement}" var="AM" varStatus="s">
+                        <div class="list-group" id="list-tab1" role="tablist">
+                            <c:forEach items="${announcement}" var="n" varStatus="s">
                                 <c:if test="${s.count <=5}">
                                     <c:if test="${s.first}">
-                                        <a class="list-group-item list-group-item-action active"
-                                           id="list-${AM.getId()}-list" data-toggle="list" href="#list-${AM.getId()}"
-                                           role="tab" aria-controls="${AM.getId()}">${fn:substring(AM.title,0,7)}</a>
+                                        <a class="list-group-item list-group-item-action active" id="list-news-${n.getId()}-list" data-toggle="list" href="#list-news-${n.getId()}" role="tab" aria-controls="news-${n.getId()}">${fn:substring(n.title,0,7)}</a>
                                     </c:if>
                                     <c:if test="${!s.first}">
-                                        <a class="list-group-item list-group-item-action" id="list-${AM.getId()}-list"
-                                           data-toggle="list" href="#list-${AM.getId()}" role="tab"
-                                           aria-controls="${AM.getId()}">${fn:substring(AM.title,0,7)}</a>
+                                        <a class="list-group-item list-group-item-action" id="list-news-${n.getId()}-list" data-toggle="list" href="#list-news-${n.getId()}" role="tab" aria-controls="news-${n.getId()}">${fn:substring(n.title,0,7)}</a>
                                     </c:if>
                                 </c:if>
                             </c:forEach>
                         </div>
                     </div>
-                    <%--        tagEnd            --%>
-                    <%--label--%>
-                    <div class="col-8" style="">
-                        <div class="tab-content" id="nav-tabContent">
-                            <c:forEach items="${announcement}" var="AM" varStatus="s">
-                                <c:if test="${s.first}">
-                                    <div class="tab-pane fade show active" id="list-${AM.getId()}" role="tabpanel"
-                                         aria-labelledby="list-${AM.getId()}-list">
-                                            ${fn:substring(AM.detail,0,50)}
-                                        <br/>
-                                        <span>
-                                            发布日期:${AM.getInsertDate()}
-                                        </span>
-                                    </div>
-                                </c:if>
-                                <c:if test="${!s.first}">
-                                    <div class="tab-pane fade" id="list-${AM.getId()}" role="tabpanel"
-                                         aria-labelledby="list-${AM.detail()}-list">
-                                            ${fn:substring(AM.detail,0,50)}
-                                        <br/>
-                                        <span>
-                                            发布日期:${AM.getInsertDate()}
-                                        </span>
-                                    </div>
+                    <div class="col-8">
+                        <div class="tab-content" id="nav-tabContent1">
+                            <c:forEach items="${announcement}" var="n" varStatus="s">
+                                <c:if test="${s.count<=5}">
+                                    <c:if test="${s.first}">
+                                        <div class="tab-pane fade show active" id="list-news-${n.getId()}" role="tabpanel" aria-labelledby="list-news-${n.getId()}-list">${fn:substring(n.detail,0,70)}
+
+                                            <p>
+                                                发布时间:${n.insertDate}
+                                            </p>
+                                            <p>
+                                                <a href="checkAnnouncement?id=${n.getId()}" class="list-item" style="font-size:1.3rem;">查看详情</a>
+                                            </p>
+                                        </div>
+                                    </c:if>
+                                    <c:if test="${!s.first}">
+                                        <div class="tab-pane fade show" id="list-news-${n.getId()}" role="tabpanel" aria-labelledby="list-news-${n.getId()}-list">${fn:substring(n.detail,0,70)}
+
+                                            <p>
+                                                发布时间:${n.insertDate}
+                                            </p>
+                                            <p>
+                                                <a href="checkAnnouncement?id=${n.getId()}" class="list-item" style="font-size:1.3rem;">查看详情</a>
+                                            </p>
+                                        </div>
+                                    </c:if>
                                 </c:if>
                             </c:forEach>
                         </div>
                     </div>
-                    <%--labelEnd--%>
                 </div>
+
             </div>
-
-
         </div>
     </div>
     </div>
 </article>
+
+
+
 
 <div class="jumbotron" style="background-color: white">
     <div class="row">
@@ -244,7 +235,6 @@
     </div>
     </div>
 </div>
-
 
 
 <footer>

@@ -24,16 +24,18 @@ public class newsServlet extends HttpServlet {
         String title = req.getParameter("title");
         String detail = req.getParameter("detail");
         //存储数据
-        try (Connection connection = DataSourceUtils.getConnection();
+        try (Connection connection = DataSourceUtils.getConnection()
         ){
             String sql = "insert into news(news_title,news_content,detail) values(?,?,?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
-            preparedStatement.setString(3,detail);
-            preparedStatement.setString(2,html);
             preparedStatement.setString(1,title);
+            preparedStatement.setString(2,html);
+            preparedStatement.setString(3,detail);
+
             preparedStatement.execute();
         } catch (SQLException e) {
-            System.out.println("获取数据库链接失败");
+            System.out.println("获取数据库链接失败456");
+            e.printStackTrace();
         }
     }
 

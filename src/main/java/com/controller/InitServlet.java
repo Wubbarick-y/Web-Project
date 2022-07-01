@@ -32,12 +32,10 @@ public class InitServlet extends HttpServlet {
                 String detail = resultSet.getString("detail");
                 list.add(new AnnounceMent(id,time,title,content,detail));
             }
-
             req.setAttribute("announcement",list);
         } catch (SQLException e) {
             System.out.println("公告加载失败");
         }
-
         try {
             Connection connection = DataSourceUtils.getConnection();
             PreparedStatement preparedStatement = connection.prepareStatement("select * from news order by insert_time desc");
@@ -54,10 +52,6 @@ public class InitServlet extends HttpServlet {
         } catch (SQLException e) {
             System.out.println("新闻加载失败");
         }
-
-
-
-
         req.getRequestDispatcher("/index.jsp").forward(req,resp);
     }
 }
