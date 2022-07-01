@@ -45,7 +45,7 @@
             <a href="announcementManage" class="list-group-item bg-secondary text-white">查看公告</a>
         </li>
         <li class="list-group-item bg-secondary">
-            <a href="" class="list-group-item bg-secondary text-white">查看新闻</a>
+            <a href="newsManage" class="list-group-item bg-secondary text-white">查看新闻</a>
         </li>
     </ul>
 </div>
