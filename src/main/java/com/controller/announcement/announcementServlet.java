@@ -1,4 +1,4 @@
-package com.controller;
+package com.controller.announcement;
 
 import com.Utils.DataSourceUtils;
 

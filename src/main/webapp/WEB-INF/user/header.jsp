@@ -63,13 +63,13 @@
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="newsCenter" class="nav-link">
                         新闻中心
                     </a>
                 </li>
 
                 <li class="nav-item">
-                    <a href="#" class="nav-link">
+                    <a href="announcementCenter" class="nav-link">
                         通知公告
                     </a>
                 </li>
