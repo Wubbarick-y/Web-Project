@@ -20,6 +20,16 @@
             width: 100%;
             height: 100%;
         }
+        .list-group-item:first-child{
+            border-top-left-radius:0;
+            border-top-right-radius:0;
+        }
+        .list-group-item:last-child{
+            border-bottom-right-radius:0;
+            border-bottom-left-radius:0;
+        }
+        .list-group-item{
+        }
     </style>
 
 </head>
@@ -67,24 +77,70 @@
     <!--   轮播图结束-->
 </div>
 
-<main>
+<article style="margin-bottom:3rem;">
     <div class="container" >
         <div class="row border-bottom: black dashed 1px" >
             <div class="col-md-6" style="border-right: black dashed 1px ;" >
                 <img src="${pageContext.request.contextPath}/image/icons/sticky_note_2_black_24dp.svg" alt="icon">
                 <h5 style="display: inline-block">新闻中心</h5>
                 <%--     这里写新闻       --%>
+                <div class="row">
 
+<%--        tag             --%>
+                    <div class="col-4" >
+                        <div class="list-group" id="list-tab" role="tablist" >
+                            <c:forEach items="${announcement}" var="AM" varStatus="s">
+                                <c:if test="${s.count <=5}">
+                                    <c:if test="${s.first}">
+                                        <a class="list-group-item list-group-item-action active" id="list-${AM.getId()}-list" data-toggle="list" href="#list-${AM.getId()}" role="tab" aria-controls="${AM.getId()}">${AM.title}</a>
+                                    </c:if>
+                                    <c:if test="${!s.first}">
+                                        <a class="list-group-item list-group-item-action" id="list-${AM.getId()}-list" data-toggle="list" href="#list-${AM.getId()}" role="tab" aria-controls="${AM.getId()}">${AM.title}</a>
+                                    </c:if>
+                                </c:if>
+                            </c:forEach>
+                        </div>
+                    </div>
+<%--        tagEnd            --%>
+<%--label--%>
+                    <div class="col-8" style="">
+                            <div class="tab-content" id="nav-tabContent">
+                                <c:forEach items="${announcement}" var="AM" varStatus="s">
+                                    <c:if test="${s.first}">
+                                        <div class="tab-pane fade show active" id="list-${AM.getId()}" role="tabpanel" aria-labelledby="list-${AM.getId()}-list">
+                                                ${AM.html}
+                                                    <br/>
+                                                    <span>
+                                                        发布日期:${AM.getInsertDate()}
+                                                    </span>
+                                        </div>
+                                    </c:if>
+                                    <c:if test="${!s.first}">
+                                        <div class="tab-pane fade" id="list-${AM.getId()}" role="tabpanel" aria-labelledby="list-${AM.getId()}-list">
+                                                ${AM.html}
+                                                    <br/>
+                                                    <span>
+                                                        发布日期:${AM.getInsertDate()}
+                                                    </span>
+                                        </div>
+                                    </c:if>
+                                </c:forEach>
+                            </div>
+                    </div>
+<%--labelEnd--%>
+                </div>
             </div>
             <div class="col-md-6">
                 <img src="${pageContext.request.contextPath}/image/icons/construction_black_24dp.svg" alt="icons">
                 <h5 style="display: inline-block">通知公告</h5>
                 <%--     这里写公告       --%>
 
+
+
             </div>
         </div>
     </div>
-</main>
+</article>
 
 
 <footer>

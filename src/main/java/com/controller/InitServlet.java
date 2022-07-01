@@ -20,7 +20,7 @@ public class InitServlet extends HttpServlet {
         List<AnnounceMent> list = new ArrayList<>();
         try {
             Connection connection = DataSourceUtils.getConnection();
-            PreparedStatement preparedStatement = connection.prepareStatement("select * from announcement");
+            PreparedStatement preparedStatement = connection.prepareStatement("select * from announcement order by insert_time desc");
             ResultSet resultSet = preparedStatement.executeQuery();
             while(resultSet.next()){
                 int id = resultSet.getInt("announcement_Id");
@@ -33,6 +33,6 @@ public class InitServlet extends HttpServlet {
         } catch (SQLException e) {
             throw new RuntimeException(e);
         }
-        req.getRequestDispatcher("/WEB-INF/index.jsp").forward(req,resp);
+        req.getRequestDispatcher("/index.jsp").forward(req,resp);
     }
 }
