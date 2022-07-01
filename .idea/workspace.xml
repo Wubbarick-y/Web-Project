@@ -9,12 +9,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="major introduction">
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/banner/banner.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/Libs.jsp" afterDir="false" />
+    <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="add Teachers">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/teachers/张锡英-副教授.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/teachers/李莉-副教授.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/teachers/王波-讲师.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/teachers/董素宇-讲师.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/teachers/边继龙-讲师.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/teachers/邱兆文-教授.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/info/1.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/info/2.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/info/3.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/info/4.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/info/5.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/info/6.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/teachers.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/Libs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/Libs.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,11 +92,11 @@
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\image\teachers" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\image\banner" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\image\icons" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\public" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\WEB-INF\admin" />
-      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\plugin" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.Utils" />
@@ -203,7 +214,7 @@
       <workItem from="1656461951919" duration="41964000" />
       <workItem from="1656557901519" duration="1375000" />
       <workItem from="1656561538516" duration="20668000" />
-      <workItem from="1656632839337" duration="16444000" />
+      <workItem from="1656632839337" duration="21688000" />
     </task>
     <task id="LOCAL-00001" summary="Index">
       <created>1656491695677</created>
@@ -296,7 +307,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656658400836</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="prove libs">
+      <created>1656660772972</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1656660772972</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,6 +342,8 @@
     <MESSAGE value="add news" />
     <MESSAGE value="add news and bug fix" />
     <MESSAGE value="major introduction" />
-    <option name="LAST_COMMIT_MESSAGE" value="major introduction" />
+    <MESSAGE value="prove libs" />
+    <MESSAGE value="add Teachers" />
+    <option name="LAST_COMMIT_MESSAGE" value="add Teachers" />
   </component>
 </project>
