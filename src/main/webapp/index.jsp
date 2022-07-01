@@ -119,7 +119,7 @@
                                 <c:if test="${s.first}">
                                     <div class="tab-pane fade show active" id="list-${AM.getId()}" role="tabpanel"
                                          aria-labelledby="list-${AM.getId()}-list">
-                                            ${fn:substring(AM.html,0,50)}
+                                            ${fn:substring(AM.detail,0,50)}
                                         <br/>
                                         <span>
                                             发布日期:${AM.getInsertDate()}
@@ -129,7 +129,7 @@
                                 <c:if test="${!s.first}">
                                     <div class="tab-pane fade" id="list-${AM.getId()}" role="tabpanel"
                                          aria-labelledby="list-${AM.getId()}-list">
-                                            ${fn:substring(AM.html,0,50)}
+                                            ${fn:substring(AM.detail,0,50)}
                                         <br/>
                                         <span>
                                             发布日期:${AM.getInsertDate()}
@@ -148,7 +148,6 @@
                 <h5 style="display: inline-block">通知公告</h5>
                 <%--     这里写公告       --%>
                 <div class="row">
-
                     <%--        tag             --%>
                     <div class="col-4">
                         <div class="list-group" id="list-tab" role="tablist">
@@ -176,7 +175,7 @@
                                 <c:if test="${s.first}">
                                     <div class="tab-pane fade show active" id="list-${AM.getId()}" role="tabpanel"
                                          aria-labelledby="list-${AM.getId()}-list">
-                                            ${fn:substring(AM.html,0,50)}
+                                            ${fn:substring(AM.detail,0,50)}
                                         <br/>
                                         <span>
                                             发布日期:${AM.getInsertDate()}
@@ -185,8 +184,8 @@
                                 </c:if>
                                 <c:if test="${!s.first}">
                                     <div class="tab-pane fade" id="list-${AM.getId()}" role="tabpanel"
-                                         aria-labelledby="list-${AM.getId()}-list">
-                                            ${fn:substring(AM.html,0,50)}
+                                         aria-labelledby="list-${AM.detail()}-list">
+                                            ${fn:substring(AM.detail,0,50)}
                                         <br/>
                                         <span>
                                             发布日期:${AM.getInsertDate()}

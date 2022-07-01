@@ -180,7 +180,8 @@
             $("#announcementSubmit").click(function () {
                 $.post("newsSubmit",{
                     title:$("#title").val(),
-                    html:editor.getHtml()
+                    html:editor.getHtml(),
+                    detail:editor.getText()
                 },()=>{
                     alert("发送成功！即将回到首页");
                     window.location.href='index';

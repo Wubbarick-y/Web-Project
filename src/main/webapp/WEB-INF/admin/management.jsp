@@ -42,7 +42,7 @@
             <a class="list-group-item bg-secondary text-white" href="newsSubmit">添加新闻</a>
         </li>
         <li class="list-group-item bg-secondary">
-            <a href="" class="list-group-item bg-secondary text-white">查看公告</a>
+            <a href="announcementManage" class="list-group-item bg-secondary text-white">查看公告</a>
         </li>
         <li class="list-group-item bg-secondary">
             <a href="" class="list-group-item bg-secondary text-white">查看新闻</a>

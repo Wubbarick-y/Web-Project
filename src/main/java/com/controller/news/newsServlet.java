@@ -11,7 +11,7 @@ import java.io.IOException;
 import java.sql.Connection;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
-
+//添加数据的servlet
 @WebServlet("/newsSubmit")
 public class newsServlet extends HttpServlet {
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
@@ -22,11 +22,13 @@ public class newsServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String html = req.getParameter("html");
         String title = req.getParameter("title");
+        String detail = req.getParameter("detail");
         //存储数据
         try (Connection connection = DataSourceUtils.getConnection();
         ){
-            String sql = "insert into news(news_title,news_content) values(?,?)";
+            String sql = "insert into news(news_title,news_content,detail) values(?,?,?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(3,detail);
             preparedStatement.setString(2,html);
             preparedStatement.setString(1,title);
             preparedStatement.execute();

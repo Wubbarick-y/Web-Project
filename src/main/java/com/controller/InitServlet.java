@@ -29,8 +29,10 @@ public class InitServlet extends HttpServlet {
                 Date time = resultSet.getDate("insert_time");
                 String title = resultSet.getString("announcement_title");
                 String content = resultSet.getString("announcement_content");
-                list.add(new AnnounceMent(id,time,title,content));
+                String detail = resultSet.getString("detail");
+                list.add(new AnnounceMent(id,time,title,content,detail));
             }
+
             req.setAttribute("announcement",list);
         } catch (SQLException e) {
             System.out.println("公告加载失败");
@@ -45,7 +47,8 @@ public class InitServlet extends HttpServlet {
                 Date time = resultSet.getDate("insert_time");
                 String title = resultSet.getString("news_title");
                 String content = resultSet.getString("news_content");
-                newsList.add(new News(id,time,title,content));
+                String detail = resultSet.getString("detail");
+                newsList.add(new News(id,time,title,content,detail));
             }
             req.setAttribute("news",newsList);
         } catch (SQLException e) {

@@ -8,6 +8,24 @@ public class News {
     private String title;
     private String html;
 
+    private String detail;
+
+    public String getDetail() {
+        return detail;
+    }
+
+    public void setDetail(String detail) {
+        this.detail = detail;
+    }
+
+    public News(int id, Date insertDate, String title, String html, String detail) {
+        this.id = id;
+        this.insertDate = insertDate;
+        this.title = title;
+        this.html = html;
+        this.detail = detail;
+    }
+
     public News(int id, Date insertDate, String title, String html) {
         this.id = id;
         this.insertDate = insertDate;

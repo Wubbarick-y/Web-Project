@@ -25,11 +25,13 @@ public class announcementServlet extends HttpServlet {
     protected void doPost(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         String html = req.getParameter("html");
         String title = req.getParameter("title");
+        String detail = req.getParameter("detail");
         //存储数据
         try (            Connection connection = DataSourceUtils.getConnection();
         ){
-            String sql = "insert into announcement(announcement_title,announcement_content) values(?,?)";
+            String sql = "insert into announcement(announcement_title,announcement_content,detail) values(?,?,?)";
             PreparedStatement preparedStatement = connection.prepareStatement(sql);
+            preparedStatement.setString(3,detail);
             preparedStatement.setString(2,html);
             preparedStatement.setString(1,title);
             preparedStatement.execute();

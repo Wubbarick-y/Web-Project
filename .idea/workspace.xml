@@ -9,19 +9,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="add Works">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/announcement/announcementCenterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/announcement/checkAnnouncementServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/news/checkNewsServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/news/newsCenterServlet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/announcementCenter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/newsCenter.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/showArticle.jsp" afterDir="false" />
+    <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="bug fix">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/admin/announcementManageServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/controller/announcement/announcementDelete.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/announceManage.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/webContexts.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/announcementServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/announcement/announcementServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/newsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/news/newsServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/InitServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/InitServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/LoginServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/admin/LoginServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/ManagementServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/admin/ManagementServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/announcement/announcementServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/announcement/announcementServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/controller/news/newsServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/controller/news/newsServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/AnnounceMent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/AnnounceMent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/entity/News.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/entity/News.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/announceSubmit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/announceSubmit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/management.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/management.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/newsSubmit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/newsSubmit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,8 +36,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -211,7 +215,7 @@
       <workItem from="1656461951919" duration="41964000" />
       <workItem from="1656557901519" duration="1375000" />
       <workItem from="1656561538516" duration="20668000" />
-      <workItem from="1656632839337" duration="30696000" />
+      <workItem from="1656632839337" duration="35242000" />
     </task>
     <task id="LOCAL-00001" summary="Index">
       <created>1656491695677</created>
@@ -325,7 +329,21 @@
       <option name="project" value="LOCAL" />
       <updated>1656674496651</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="add Announcement &amp;&amp; News dynamic Check">
+      <created>1656679482772</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1656679482772</updated>
+    </task>
+    <task id="LOCAL-00018" summary="bug fix">
+      <created>1656679825077</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1656679825077</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -356,6 +374,8 @@
     <MESSAGE value="prove libs" />
     <MESSAGE value="add Teachers" />
     <MESSAGE value="add Works" />
-    <option name="LAST_COMMIT_MESSAGE" value="add Works" />
+    <MESSAGE value="add Announcement &amp;&amp; News dynamic Check" />
+    <MESSAGE value="bug fix" />
+    <option name="LAST_COMMIT_MESSAGE" value="bug fix" />
   </component>
 </project>
