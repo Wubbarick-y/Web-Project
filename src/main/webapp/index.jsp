@@ -1,5 +1,6 @@
 <%@page pageEncoding="UTF-8" %>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+<%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions"%>
 <!doctype html>
 <html lang="en">
 <head>
@@ -10,8 +11,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0 shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
-<%-- bootstrap --%>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <%-- bootstrap --%>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+          integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/shards.min.css">
 
     <style>
@@ -20,15 +22,18 @@
             width: 100%;
             height: 100%;
         }
-        .list-group-item:first-child{
-            border-top-left-radius:0;
-            border-top-right-radius:0;
+
+        .list-group-item:first-child {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
         }
-        .list-group-item:last-child{
-            border-bottom-right-radius:0;
-            border-bottom-left-radius:0;
+
+        .list-group-item:last-child {
+            border-bottom-right-radius: 0;
+            border-bottom-left-radius: 0;
         }
-        .list-group-item{
+
+        .list-group-item {
         }
     </style>
 
@@ -73,29 +78,34 @@
 
                 </div>
             </div>
-        </div></div>
+        </div>
+    </div>
     <!--   轮播图结束-->
 </div>
 
 <article style="margin-bottom:3rem;">
-    <div class="container" >
-        <div class="row border-bottom: black dashed 1px" >
-            <div class="col-md-6" style="border-right: black dashed 1px ;" >
+    <div class="container">
+        <div class="row border-bottom: black dashed 1px">
+            <div class="col-md-6" style="border-right: black dashed 1px ;">
                 <img src="${pageContext.request.contextPath}/image/icons/sticky_note_2_black_24dp.svg" alt="icon">
                 <h5 style="display: inline-block">新闻中心</h5>
                 <%--     这里写新闻       --%>
                 <div class="row">
 
                     <%--        tag             --%>
-                    <div class="col-4" >
-                        <div class="list-group" id="list-tab2" role="tablist" >
+                    <div class="col-4">
+                        <div class="list-group" id="list-tab2" role="tablist">
                             <c:forEach items="${news}" var="AM" varStatus="s">
                                 <c:if test="${s.count <=5}">
                                     <c:if test="${s.first}">
-                                        <a class="list-group-item list-group-item-action active" id="list-${AM.getId()}-list" data-toggle="list" href="#list-${AM.getId()}" role="tab" aria-controls="${AM.getId()}">${AM.title}</a>
+                                        <a class="list-group-item list-group-item-action active"
+                                           id="list-${AM.getId()}-list" data-toggle="list" href="#list-${AM.getId()}"
+                                           role="tab" aria-controls="${AM.getId()}">${fn:substring(AM.title,0,7)}</a>
                                     </c:if>
                                     <c:if test="${!s.first}">
-                                        <a class="list-group-item list-group-item-action" id="list-${AM.getId()}-list" data-toggle="list" href="#list-${AM.getId()}" role="tab" aria-controls="${AM.getId()}">${AM.title}</a>
+                                        <a class="list-group-item list-group-item-action" id="list-${AM.getId()}-list"
+                                           data-toggle="list" href="#list-${AM.getId()}" role="tab"
+                                           aria-controls="${AM.getId()}">${fn:substring(AM.title,0,7)}</a>
                                     </c:if>
                                 </c:if>
                             </c:forEach>
@@ -107,21 +117,23 @@
                         <div class="tab-content" id="nav-tabContent2">
                             <c:forEach items="${news}" var="AM" varStatus="s">
                                 <c:if test="${s.first}">
-                                    <div class="tab-pane fade show active" id="list-${AM.getId()}" role="tabpanel" aria-labelledby="list-${AM.getId()}-list">
-                                            ${AM.html}
+                                    <div class="tab-pane fade show active" id="list-${AM.getId()}" role="tabpanel"
+                                         aria-labelledby="list-${AM.getId()}-list">
+                                            ${fn:substring(AM.html,0,50)}
                                         <br/>
                                         <span>
-                                                        发布日期:${AM.getInsertDate()}
-                                                    </span>
+                                            发布日期:${AM.getInsertDate()}
+                                        </span>
                                     </div>
                                 </c:if>
                                 <c:if test="${!s.first}">
-                                    <div class="tab-pane fade" id="list-${AM.getId()}" role="tabpanel" aria-labelledby="list-${AM.getId()}-list">
-                                            ${AM.html}
+                                    <div class="tab-pane fade" id="list-${AM.getId()}" role="tabpanel"
+                                         aria-labelledby="list-${AM.getId()}-list">
+                                            ${fn:substring(AM.html,0,50)}
                                         <br/>
                                         <span>
-                                                        发布日期:${AM.getInsertDate()}
-                                                    </span>
+                                            发布日期:${AM.getInsertDate()}
+                                        </span>
                                     </div>
                                 </c:if>
                             </c:forEach>
@@ -138,15 +150,19 @@
                 <div class="row">
 
                     <%--        tag             --%>
-                    <div class="col-4" >
-                        <div class="list-group" id="list-tab" role="tablist" >
+                    <div class="col-4">
+                        <div class="list-group" id="list-tab" role="tablist">
                             <c:forEach items="${announcement}" var="AM" varStatus="s">
                                 <c:if test="${s.count <=5}">
                                     <c:if test="${s.first}">
-                                        <a class="list-group-item list-group-item-action active" id="list-${AM.getId()}-list" data-toggle="list" href="#list-${AM.getId()}" role="tab" aria-controls="${AM.getId()}">${AM.title}</a>
+                                        <a class="list-group-item list-group-item-action active"
+                                           id="list-${AM.getId()}-list" data-toggle="list" href="#list-${AM.getId()}"
+                                           role="tab" aria-controls="${AM.getId()}">${fn:substring(AM.title,0,7)}</a>
                                     </c:if>
                                     <c:if test="${!s.first}">
-                                        <a class="list-group-item list-group-item-action" id="list-${AM.getId()}-list" data-toggle="list" href="#list-${AM.getId()}" role="tab" aria-controls="${AM.getId()}">${AM.title}</a>
+                                        <a class="list-group-item list-group-item-action" id="list-${AM.getId()}-list"
+                                           data-toggle="list" href="#list-${AM.getId()}" role="tab"
+                                           aria-controls="${AM.getId()}">${fn:substring(AM.title,0,7)}</a>
                                     </c:if>
                                 </c:if>
                             </c:forEach>
@@ -158,21 +174,23 @@
                         <div class="tab-content" id="nav-tabContent">
                             <c:forEach items="${announcement}" var="AM" varStatus="s">
                                 <c:if test="${s.first}">
-                                    <div class="tab-pane fade show active" id="list-${AM.getId()}" role="tabpanel" aria-labelledby="list-${AM.getId()}-list">
-                                            ${AM.html}
+                                    <div class="tab-pane fade show active" id="list-${AM.getId()}" role="tabpanel"
+                                         aria-labelledby="list-${AM.getId()}-list">
+                                            ${fn:substring(AM.html,0,50)}
                                         <br/>
                                         <span>
-                                                        发布日期:${AM.getInsertDate()}
-                                                    </span>
+                                            发布日期:${AM.getInsertDate()}
+                                        </span>
                                     </div>
                                 </c:if>
                                 <c:if test="${!s.first}">
-                                    <div class="tab-pane fade" id="list-${AM.getId()}" role="tabpanel" aria-labelledby="list-${AM.getId()}-list">
-                                            ${AM.html}
+                                    <div class="tab-pane fade" id="list-${AM.getId()}" role="tabpanel"
+                                         aria-labelledby="list-${AM.getId()}-list">
+                                            ${fn:substring(AM.html,0,50)}
                                         <br/>
                                         <span>
-                                                        发布日期:${AM.getInsertDate()}
-                                                    </span>
+                                            发布日期:${AM.getInsertDate()}
+                                        </span>
                                     </div>
                                 </c:if>
                             </c:forEach>
@@ -183,27 +201,30 @@
             </div>
 
 
-            </div>
         </div>
+    </div>
     </div>
 </article>
 
 
 <footer>
     <%--Footer--%>
-    <div class="jumbotron-fluid" >
+    <div class="jumbotron-fluid">
         <jsp:include page="WEB-INF/user/footer.jsp"/>
     </div>
 </footer>
 
 
-
-
-
 <%--script--%>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
 <script src="${pageContext.request.contextPath}/resources/js/shards.min.js"></script>
 </body>
 </html>
