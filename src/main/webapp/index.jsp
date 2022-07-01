@@ -251,7 +251,7 @@
 <footer>
     <%--Footer--%>
     <div class="jumbotron-fluid">
-        <jsp:include page="WEB-INF/user/footer.jsp"/>
+        <jsp:include page="/WEB-INF/user/footer.jsp"/>
     </div>
 </footer>
 

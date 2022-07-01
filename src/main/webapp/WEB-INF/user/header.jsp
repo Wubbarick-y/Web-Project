@@ -36,14 +36,14 @@
                         <a class="dropdown-item" href="index#方向介绍">方向介绍</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="https://designrevision.com" id="实验室"
-                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">实验室</a>
-                    <div class="dropdown-menu" aria-labelledby="实验室">
-                        <a class="dropdown-item" href="#">923创新实验室</a>
-                        <a class="dropdown-item" href="#">925移动开发实验室</a>
-                    </div>
-                </li>
+<%--                <li class="nav-item dropdown">--%>
+<%--                    <a class="nav-link dropdown-toggle" href="https://designrevision.com" id="实验室"--%>
+<%--                       data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">实验室</a>--%>
+<%--                    <div class="dropdown-menu" aria-labelledby="实验室">--%>
+<%--                        <a class="dropdown-item" href="static/Libs.jsp#list-923">923创新实验室</a>--%>
+<%--                        <a class="dropdown-item" href="static/Libs.jsp#list-925">925移动开发实验室</a>--%>
+<%--                    </div>--%>
+<%--                </li>--%>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="https://designrevision.com" id="教师队伍"
                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">教师队伍</a>
@@ -60,6 +60,11 @@
                         <a class="dropdown-item" href="#">就业工作</a>
                         <a class="dropdown-item" href="#">就业信息</a>
                     </div>
+                </li>
+                <li class="nav-item">
+                    <a href="static/Libs.jsp" class="nav-link">
+                       实验室
+                    </a>
                 </li>
 
                 <li class="nav-item">
