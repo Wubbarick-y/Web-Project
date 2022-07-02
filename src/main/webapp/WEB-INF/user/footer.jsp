@@ -9,7 +9,7 @@
             . All rights reserved.
         </div>
         <div>
-            Made by 袁丰祥 <a target="_blank" class="text-secondary font-weight-bold" href="https://github.com/PokIsemaine">Gitee</a>
+            Made by 袁丰祥 <a target="_blank" class="text-secondary font-weight-bold" href="https://github.com/Wubbarick-y/Web-Project">Github</a>
         </div>
     </div>
 </div>
