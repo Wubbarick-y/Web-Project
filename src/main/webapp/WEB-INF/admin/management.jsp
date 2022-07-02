@@ -47,6 +47,9 @@
         <li class="list-group-item bg-secondary">
             <a href="newsManage" class="list-group-item bg-secondary text-white">查看新闻</a>
         </li>
+        <li class="list-group-item bg-secondary">
+            <a href="exit" class="list-group-item bg-secondary text-white" id="exitManager">退出登录</a>
+        </li>
     </ul>
 </div>
 
@@ -63,5 +66,6 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script src="${pageContext.request.contextPath}/resources/js/shards.min.js"></script>
+
 </body>
 </html>
