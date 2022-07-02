@@ -1,11 +1,10 @@
 <%@page pageEncoding="UTF-8" %>
-
 <!--  header -->
 <div class="container-fluid text-center " >
-    <div class="row">
-        <div class="col">
-            <a href="https://icec.nefu.edu.cn/index.htm" class="col">
-                <img src="${pageContext.request.contextPath}/image/logo/logo.png" alt="Logo">
+    <div class="row" style="width: 100%;">
+        <div class="col" style="width: 100%;">
+            <a href="https://icec.nefu.edu.cn/index.htm" class="col" style="width: 100%">
+                <img src="${pageContext.request.contextPath}/image/logo/logo.png" alt="Logo" id="Schoollogo" style="width: 100%">
             </a>
         </div>
     </div>
