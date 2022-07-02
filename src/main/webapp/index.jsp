@@ -193,9 +193,6 @@
     </div>
 </article>
 
-
-
-
 <div class="jumbotron" style="background-color: white">
     <div class="row">
         <div class="col-md-8 offset-md-2" id="专业介绍">
@@ -233,6 +230,22 @@
             </div>
         </div>
     </div>
+    </div>
+</div>
+
+<hr/>
+<div class="bg-white jumbotron">
+    <div class="section-title container ml-auto mr-auto py-5">
+        <h1 class="mb-2 text-center">📘</h1>
+        <h3 class="mb-4 text-center">Whats new?</h3>
+        <p class="text-left ml-5">
+            &nbsp; &nbsp;1.网站是通过Bootstrap4+Jsp+Servlet+Jdbc+JQuery+wangEditor实现了老师要求的所有的基础功能。 <br/>
+            &nbsp; &nbsp;2.在编码的过程当中，使用到了git来进行版本控制，并将最终的代码提交到了github上。 <br/>
+            &nbsp; &nbsp;3.在文章的发布、修改界面，实现了富文本提交、修改内容。但是由于时间有限，并未能够提供文件、图片的上传功能 <br/>
+            &nbsp; &nbsp;4.实现了模态框、轮播图、动画、卡片等来提高用户的体验 <br/>
+            &nbsp; &nbsp;5.对于文章和公告，实现了动态链接数据库读取数据、修改数据等。 <br/>
+            &nbsp; &nbsp;6.在后台，实现了管理员对信息、公告数据的增删改查。并添加了Filter，未登录的人员不能够进入后台系统。 <br/>
+        </p>
     </div>
 </div>
 
