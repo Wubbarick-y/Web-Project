@@ -9,9 +9,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="修复过滤器只能过滤login界面的问题">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+    <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="增加一些关于项目的描述">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/static/Libs2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/header.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -203,7 +203,7 @@
       <workItem from="1656557901519" duration="1375000" />
       <workItem from="1656561538516" duration="20668000" />
       <workItem from="1656632839337" duration="44992000" />
-      <workItem from="1656722841372" duration="2561000" />
+      <workItem from="1656722841372" duration="2992000" />
     </task>
     <task id="LOCAL-00001" summary="Index">
       <created>1656491695677</created>
@@ -373,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656724981800</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="增加一些关于项目的描述">
+      <created>1656726250292</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1656726250292</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -422,6 +429,7 @@
     <MESSAGE value="成功回显HTML" />
     <MESSAGE value="新增加修改功能" />
     <MESSAGE value="修复过滤器只能过滤login界面的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复过滤器只能过滤login界面的问题" />
+    <MESSAGE value="增加一些关于项目的描述" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加一些关于项目的描述" />
   </component>
 </project>
