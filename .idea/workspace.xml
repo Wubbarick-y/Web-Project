@@ -9,8 +9,40 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="修复了由于轮播图导致的屏幕无法占满的问题">
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/header.jsp" afterDir="false" />
+    <list default="true" id="0cdc5219-b447-42a7-b00a-6849ec3595d0" name="Changes" comment="修复了由于img导致的屏幕无法占满的问题">
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/icons/description_FILL1_wght600_GRAD0_opsz48.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/icons/face_retouching_natural_FILL1_wght600_GRAD0_opsz48.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/icons/feed_FILL1_wght600_GRAD0_opsz48.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/icons/group_FILL1_wght600_GRAD0_opsz48.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/icons/home_FILL1_wght600_GRAD0_opsz48.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/icons/science_FILL1_wght600_GRAD0_opsz48.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/image/icons/settings_FILL1_wght600_GRAD0_opsz48.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/announceManage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/announceManage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/announceSubmit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/announceSubmit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/bg-image.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/management.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/management.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/newsManage.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/newsManage.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/newsSubmit.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/newsSubmit.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/updateArticle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/admin/updateArticle.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/announcementCenter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/announcementCenter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/newsCenter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/newsCenter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/showArticle.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/user/showArticle.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/index.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/info/1.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/info/1.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/info/2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/info/2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/info/3.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/info/3.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/info/4.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/info/4.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/info/5.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/info/5.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/info/6.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/info/6.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/info/example.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/info/example.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/public/newsCenter.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/public/newsCenter.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/Libs.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/Libs.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/Libs2.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/Libs2.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/jygz.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/jygz.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/jyxx.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/jyxx.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/teachers.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/teachers.jsp" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,8 +53,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
-        <option value="Jsp File" />
         <option value="Class" />
+        <option value="Jsp File" />
       </list>
     </option>
   </component>
@@ -77,10 +109,10 @@
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\image\icons" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\WEB-INF\user" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\image\banner" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\image\teachers" />
-      <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\image\icons" />
       <recent name="C:\Users\wubba\Downloads\web-course-master\web-course-master\web-experiments\Web-Project\src\main\webapp\public" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -407,7 +439,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656735729727</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="修复了由于img导致的屏幕无法占满的问题">
+      <created>1656736117155</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1656736117155</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +475,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Index" />
     <MESSAGE value="login and Index" />
     <MESSAGE value="Filter" />
     <MESSAGE value="improve Filter" />
@@ -461,6 +499,7 @@
     <MESSAGE value="修复后台管理系统背景图片加载过慢的问题" />
     <MESSAGE value="增加退出登录" />
     <MESSAGE value="修复了由于轮播图导致的屏幕无法占满的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="修复了由于轮播图导致的屏幕无法占满的问题" />
+    <MESSAGE value="修复了由于img导致的屏幕无法占满的问题" />
+    <option name="LAST_COMMIT_MESSAGE" value="修复了由于img导致的屏幕无法占满的问题" />
   </component>
 </project>

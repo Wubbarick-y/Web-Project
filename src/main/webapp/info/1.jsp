@@ -4,7 +4,8 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <c:url value="/" var="base"/>
+  <link rel="shortcut icon" type="image/x-icon" href="<c:url value="/image/icons/group_FILL1_wght600_GRAD0_opsz48.svg"/>"></link>
+<c:url value="/" var="base"/>
   <base href="${base}">
   <meta charset="UTF-8">
   <meta name="viewport"

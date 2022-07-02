@@ -3,6 +3,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="shortcut icon" type="image/x-icon" href="<c:url value="/image/icons/description_FILL1_wght600_GRAD0_opsz48.svg"/>"></link>
     <c:url var="base" value="/"/>
     <base href="${base}">
     <meta charset="UTF-8">

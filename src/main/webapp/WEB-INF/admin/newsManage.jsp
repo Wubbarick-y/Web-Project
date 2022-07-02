@@ -5,7 +5,9 @@
 <html lang="en">
 <head>
     <c:url value="/" var="base"/>
-    <base href="${base}">
+        <link rel="shortcut icon" type="image/x-icon" href="<c:url value="/image/icons/settings_FILL1_wght600_GRAD0_opsz48.svg"/>"></link>
+
+        <base href="${base}">
     <meta charset="UTF-8">
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0 shrink-to-fit=no">

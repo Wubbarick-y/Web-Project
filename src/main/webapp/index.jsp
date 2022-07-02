@@ -4,6 +4,7 @@
 <!doctype html>
 <html lang="en">
 <head>
+    <link rel="shortcut icon" type="image/x-icon" href="<c:url value="/image/icons/home_FILL1_wght600_GRAD0_opsz48.svg"/>"></link>
     <c:url value="/" var="base"/>
     <base href="${base}">
     <meta charset="UTF-8">
@@ -31,6 +32,21 @@
         .list-group-item:last-child {
             border-bottom-right-radius: 0;
             border-bottom-left-radius: 0;
+        }
+
+
+         .scroll-top {
+             position:fixed;
+             bottom:0;
+             right:6%;
+             z-index:100;
+             background: #f2f3f2;
+             font-size:24px;
+             border-top-left-radius:3px;
+             border-top-right-radius:3px;
+         }
+        .scroll-top a:link,.scroll-top a:visited {
+            color:#222;
         }
 
     </style>
@@ -245,6 +261,7 @@
         </p>
     </div>
 </div>
+
 
 
 <footer>
