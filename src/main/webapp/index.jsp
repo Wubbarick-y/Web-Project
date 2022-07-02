@@ -41,43 +41,39 @@
 <div class="jumbotron-fluid " style="margin-bottom:3rem;background-color:#0c673b; border-radius:0;">
     <jsp:include page="/WEB-INF/user/header.jsp"/>
     <!--  轮播图-->
-    <div class="container-fulid">
-        <div class="row ">
-            <div class="col-md-12">
-                <div id="demo" class="carousel slide" data-ride="carousel">
 
-                    <!-- 指示符 -->
-                    <ul class="carousel-indicators">
-                        <li data-target="#demo" data-slide-to="0" class="active"></li>
-                        <li data-target="#demo" data-slide-to="1"></li>
-                    </ul>
+    <div id="demo" class="carousel slide" data-ride="carousel">
 
-                    <!-- 轮播图片 -->
-                    <div class="carousel-inner">
-                        <div class="carousel-item active">
-                            <a href="https://icec.nefu.edu.cn/nefu_70.htm">
-                                <img src="${pageContext.request.contextPath}/image/Carousel/轮播图3.png" alt="NEFU70周年">
-                            </a>
-                        </div>
-                        <div class="carousel-item">
-                            <a href="https://icec.nefu.edu.cn/xkjs2/xkjstz.htm">
-                                <img src="${pageContext.request.contextPath}/image/Carousel/轮播图2.jpg" alt="NEFU竞赛获奖">
-                            </a>
-                        </div>
-                    </div>
+        <!-- 指示符 -->
+        <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+        </ul>
 
-                    <!-- 左右切换按钮 -->
-                    <a class="carousel-control-prev" href="#demo" data-slide="prev">
-                        <span class="carousel-control-prev-icon"></span>
-                    </a>
-                    <a class="carousel-control-next" href="#demo" data-slide="next">
-                        <span class="carousel-control-next-icon"></span>
-                    </a>
-
-                </div>
+        <!-- 轮播图片 -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <a href="https://icec.nefu.edu.cn/nefu_70.htm">
+                    <img src="${pageContext.request.contextPath}/image/Carousel/轮播图3.png" alt="NEFU70周年">
+                </a>
+            </div>
+            <div class="carousel-item">
+                <a href="https://icec.nefu.edu.cn/xkjs2/xkjstz.htm">
+                    <img src="${pageContext.request.contextPath}/image/Carousel/轮播图2.jpg" alt="NEFU竞赛获奖">
+                </a>
             </div>
         </div>
+
+        <!-- 左右切换按钮 -->
+        <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </a>
+        <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </a>
+
     </div>
+
     <!--   轮播图结束-->
 </div>
 
